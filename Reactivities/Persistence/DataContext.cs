@@ -1,3 +1,4 @@
+using Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace Persistence;
@@ -8,5 +9,5 @@ public class DataContext : DbContext
     {
     }
 
-    public DbSet<Domain.Activity> Activities { get; set; }
+    public DbSet<Activity> Activities { get; set; }
 }
