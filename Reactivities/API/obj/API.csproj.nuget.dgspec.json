@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/API/API.csproj": {}
+  },
+  "projects": {
+    "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/API/API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/API/API.csproj",
+        "projectName": "API",
+        "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/API/API.csproj",
+        "packagesPath": "/Users/kaustavhalder/.nuget/packages/",
+        "outputPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaustavhalder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/Application.csproj": {
+                "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/Application.csproj",
+        "packagesPath": "/Users/kaustavhalder/.nuget/packages/",
+        "outputPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaustavhalder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj"
+              },
+              "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/Persistence.csproj": {
+                "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj",
+        "packagesPath": "/Users/kaustavhalder/.nuget/packages/",
+        "outputPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaustavhalder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/kaustavhalder/.nuget/packages/",
+        "outputPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kaustavhalder/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj": {
+                "projectPath": "/Volumes/KaustavSSD 1/TechBandhu/Projects/DotnetReactSocial/Reactivities/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
